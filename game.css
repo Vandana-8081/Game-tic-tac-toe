@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:aquamarine;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    
+}
+.container{
+    height:70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.grid{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+    
+}
+.col{
+    height: 40px;
+    width: 40px;
+    border-radius:10px;
+    border: none;
+    font-size: 30px;
+    font-size: center;
+    
+   
+} 
+.row{
+    display: flex;
+    gap: 2vmin;
+    
+ } 
